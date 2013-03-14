@@ -2490,31 +2490,31 @@ Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <parts>
 <part name="IC1" library="PCM2706" deviceset="PCM2706" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="X1" library="SparkFun" deviceset="USB" device="PCB"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k5"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k5"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="22"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="22"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1k5"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1k5"/>
 <part name="Q1" library="adafruit" deviceset="XTAL-4" device="-3225"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="16"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="16"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3k3"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3k3"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1M"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uF"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="16"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="16"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k3"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k3"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP_POL" device="C" value="100uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="C" value="100uF"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3k3"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3k3"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="100uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="6032" value="100uF"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k3"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="3k3"/>
 <part name="U1" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="SMD2"/>
 </parts>
 <sheets>
@@ -2671,7 +2671,7 @@ Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <wire x1="71.12" y1="86.36" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="IC1" gate="2706" pin="VBUS"/>
 <wire x1="71.12" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
@@ -2736,6 +2736,7 @@ Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="38.1" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <label x="15.24" y="35.56" size="1.016" layer="95" rot="R270" xref="yes"/>
+<junction x="15.24" y="38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="2706" pin="TEST"/>
